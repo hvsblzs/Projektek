@@ -1,0 +1,112 @@
+{
+    "A1B2C3D4E5": {
+        "id": "A1B2C3D4E5",
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    "Z6A7B8C9D0": {
+        "id": "Z6A7B8C9D0",
+        "brand": "Tesla",
+        "model": "Model S",
+        "year": 2021,
+        "transmission": "Automatic",
+        "fuel_type": "Electric",
+        "passengers": 5,
+        "daily_price_huf": 45000,
+        "image": "https:\/\/media.ed.edmunds-media.com\/tesla\/model-s\/2021\/oem\/2021_tesla_model-s_sedan_plaid_fq_oem_1_815.jpg"
+    },
+    "T6U7V8W9X0": {
+        "id": "T6U7V8W9X0",
+        "brand": "Tesla",
+        "model": "Model X",
+        "year": 2022,
+        "transmission": "Automatic",
+        "fuel_type": "Electric",
+        "passengers": 7,
+        "daily_price_huf": 48000,
+        "image": "https:\/\/media.ed.edmunds-media.com\/tesla\/model-x\/2024\/oem\/2024_tesla_model-x_4dr-suv_plaid_fq_oem_1_815.jpg"
+    },
+    "6777e5d4a1c36": {
+        "brand": "Honda",
+        "model": "Civic",
+        "year": "2013",
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": "5",
+        "daily_price_huf": "14000",
+        "image": "https:\/\/www.edmunds.com\/assets\/m\/honda\/civic\/2013\/oem\/2013_honda_civic_sedan_ex-l_fq_oem_1_815.jpg",
+        "id": "6777e5d4a1c36"
+    },
+    "67795b115e314": {
+        "brand": "Subaru",
+        "model": "Impreza",
+        "year": "2012",
+        "transmission": "Manual",
+        "fuel_type": "Diesel",
+        "passengers": "5",
+        "daily_price_huf": "12000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/subaru\/impreza\/2022\/oem\/2022_subaru_impreza_4dr-hatchback_limited_fq_oem_1_815.jpg",
+        "id": "67795b115e314"
+    },
+    "67795bdc59a51": {
+        "brand": "Chevrolet",
+        "model": "Suburban",
+        "year": "2021",
+        "transmission": "Automatic",
+        "fuel_type": "Petrol",
+        "passengers": "8",
+        "daily_price_huf": "24000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/chevrolet\/suburban\/2021\/oem\/2021_chevrolet_suburban_4dr-suv_high-country_fq_oem_1_815.jpg",
+        "id": "67795bdc59a51"
+    },
+    "6779644dabf31": {
+        "brand": "Nissan ",
+        "model": "Altima",
+        "year": "2019",
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": "5",
+        "daily_price_huf": "16250",
+        "image": "https:\/\/media.ed.edmunds-media.com\/nissan\/altima\/2016\/oem\/2016_nissan_altima_sedan_25-sr_fq_oem_1_815.jpg",
+        "id": "6779644dabf31"
+    },
+    "67796492e771f": {
+        "brand": "Volkswagen",
+        "model": "Jetta",
+        "year": "2014",
+        "transmission": "Manual",
+        "fuel_type": "Diesel",
+        "passengers": "5",
+        "daily_price_huf": "13000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/volkswagen\/jetta\/2025\/oem\/2025_volkswagen_jetta_sedan_sel_fq_oem_1_815.jpg",
+        "id": "67796492e771f"
+    },
+    "677964b01d684": {
+        "brand": "Ford",
+        "model": "Focus",
+        "year": "2018",
+        "transmission": "Automatic",
+        "fuel_type": "Petrol",
+        "passengers": "5",
+        "daily_price_huf": "13500",
+        "image": "https:\/\/media.ed.edmunds-media.com\/ford\/focus\/2013\/oem\/2013_ford_focus_4dr-hatchback_bev_fq_oem_1_815.jpg",
+        "id": "677964b01d684"
+    },
+    "677c2ac4da31b": {
+        "brand": "Rivian",
+        "model": "R1T",
+        "year": "2022",
+        "transmission": "Automatic",
+        "fuel_type": "Electric",
+        "passengers": "5",
+        "daily_price_huf": "40000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/rivian\/r1t\/2022\/oem\/2022_rivian_r1t_crew-cab-pickup_launch-edition_fq_oem_1_815.jpg",
+        "id": "677c2ac4da31b"
+    }
+}
