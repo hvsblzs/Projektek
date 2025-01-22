@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tracksAndTiles.css">
+    <title>Railways</title>
+</head>
+<body>
+    <div class="menuContainer">
+        <h1 id="title">railways</h1>
+        <input type="text" id="nameInput" placeholder="add meg a neved! (kötelező, max 15 karakter)" maxlength="15">
+        <div class="startContainer">
+            <div class="difficulty">
+                <p id="chooseDiffP">állitsd be a nehézséget</p>
+                <div id="diffButtons">
+                    <select id="diffSelect">
+                        <option value="5" id="easy">5X5 (könnyű)</option>
+                        <option value="7" id="hard">7X7 (nehéz)</option>
+                    </select>
+                </div>
+            </div>
+            <div id="descAndStart">
+                <div><button id="description">leirás</button></div>
+                <div><button id="start" disabled>játék Inditása</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="hidden descText">
+        <h2>leírás</h2>
+        <p>Nekeresdországban Nevenincs király szeretne egy körvasutat építeni, amely bejárja a birodalmának minden szegletét. A feladat megvalósítása Furfangra, az udvari tanácsosra vár, akinek a munkáját nehezíti a királyság változatos tája. Segítsünk Furfangnak megtervezni a királyság vasúthálózatához tartozó térképet!A játék különböző méretű négyzetrácsos hálón játszódhat, ahol a célunk az, hogy egy összefüggő körvasútvonalat alkossunk úgy, hogy minden olyan helyre eljusson a vonat, ahova lehetséges. A térképen több különböző típusú mező található, melyek a játék kezdetén látszódnak a térképen: </p>
+        <ul>
+            <li>Üres mező: Ebben a cellában a vasútvonal a belépési irányon kívül maradék három irányba tud haladni.</li>
+            <li>Híd mező: Ezen a mezőn a vasútvonalat csak a híd által megadott egyenes írányban lehet megépíteni.</li>
+            <li>Hegy mező: Ezeken a mezőkön a sziklák a cellának két szomszédos kijáratát lezárják, így csak 90°-ban elfordulva lehet továbbhaladni.</li>
+            <li>Oázis mező: Erre a cellára nem lehet vasutat építeni.</li>
+        </ul>
+        <p>
+        Mivel szeretnénk a vasúthálózat alapanyagán spórolni, így a vasúthálózat sehol nem keresztezheti önmagát, sehol nem ágazhat el, és nem haladhat át többször egy cellán!
+        </p>
+        <p>
+        A név és nehézség kiválasztása után nyomj a 'Játék inditása' gombra.
+        </p>
+        <button id="exitDescBtn">Kilépés</button>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="hidden gameScreenContainer">
+        <div class="nameAndTime">
+            <div>útvonaltervező:</div>
+            <div id="gameName"></div>
+            <hr>
+            <div>eltelt idő:</div>
+            <div id="elapsedTime">00:00</div>
+            <div>
+                <button id="exitGame">Kilépés</button>
+            </div>
+        </div>
+        <table id="gameContainer">
+
+        </table>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="hidden winScreenContainer">
+        <div class="winScreenText">
+            <h2 id="congratsText">
+                
+            </h2>
+            <hr>
+            <div class="winText">teljesítési idő:</div>
+            <div id="winTime">00:00</div>
+            <hr>
+            <h3 id="leaderBoardHeading">rangsor:</h3>
+            <ol id="leaderBoard">
+                
+            </ol>
+            <button id="exitWinBtn">kilépés</button>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

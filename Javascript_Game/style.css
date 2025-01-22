@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    color: black;
+    background-image: url(./kiindulo_hun/pics/bg/railway2.png);
+    background-size: cover;
+}
+
+table{
+    border-spacing: 0px;
+    border: 10px solid burlywood;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.startContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.difficulty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.descAndStart{
+    padding: 5px;
+    height: 5rem;
+}
+
+#chooseDiffP{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#diffButtons {
+    display: flex;
+    gap: 10px;
+    height: 5rem;
+    width: 15rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+::placeholder{
+    color: black;
+}
+
+#diffSelect{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+#nameInput, #chooseDiffP, h1, .diffP{
+    font-variant: small-caps;
+}
+
+#exitGame{
+    width: 6.5rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-variant: small-caps;
+    font-size: 15px;
+    background-color: transparent;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#exitGame:hover{
+    background-color: gray;
+    color: white;
+}
+
+#description, #start{
+    width: 6.5rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-variant: small-caps;
+    font-size: 15px;
+    background-color: transparent;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#description:hover, #start:hover{
+    background-color: gray;
+    color: white;
+}
+
+#description{
+    margin: 0px 0px 30px 0px;
+}
+
+#nameInput{
+    width: 23rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    color: black;
+}
+
+button, select{
+    cursor: pointer;
+}
+
+.descText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+#exitWinBtn{
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 5rem;
+    height: 3em;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-variant: small-caps;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: transparent;
+    transition: 0.5s;  
+}
+
+#exitWinBtn:hover{
+    color: white;
+    background-color: gray;
+}
+
+.descText #exitDescBtn{
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 5rem;
+    height: 3em;
+    font-weight: 500;
+    margin-top: 2rem;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.descText #exitDescBtn:hover{
+    color: white;
+    background-color: gray;
+}
+
+.gameScreenContainer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.winScreenContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+#gameName{
+    font-weight: 500;
+    font-variant: small-caps;
+}
+
+.nameAndTime div{
+    font-variant: small-caps;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.nameAndTime{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+hr{
+    background-color: black;
+    height: 2px;
+    border: none;
+    border-radius: 20px;
+}
+
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.winText{
+    padding-top: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+}
+
+#winTime{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ul li{
+    text-align: center;
+}
+
+#leaderBoard{
+    text-align: center;
+}
+
+#leaderBoardHeading{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: center;
+}
+
+ol li {
+    font-size: 20px;
+    font-weight: 500;
+}

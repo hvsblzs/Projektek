@@ -1,0 +1,67 @@
+.empty{
+    background-image: url(./kiindulo_hun/pics/tiles/empty.png);
+}
+.oasis{
+    background-image: url(./kiindulo_hun/pics/tiles/oasis.png);
+}
+.hor_bridge{
+    background-image: url(./kiindulo_hun/pics/tiles/bridge_horizontal.png);
+}
+.ver_bridge{
+    background-image: url(./kiindulo_hun/pics/tiles/bridge.png);
+}
+.mnt_left_down{
+    background-image: url(./kiindulo_hun/pics/tiles/mountain_left_down.png);
+}
+.mnt_left_up{
+    background-image: url(./kiindulo_hun/pics/tiles/mountain_left_up.png);
+}
+.mnt_right_down{
+    background-image: url(./kiindulo_hun/pics/tiles/mountain.png);
+}
+.mnt_right_up{
+    background-image: url(./kiindulo_hun/pics/tiles/mountain_right_up.png);
+}
+
+.hor_bridge_rail{
+    background-image: url(./kiindulo_hun/pics/tiles/bridge_rail_horizontal.png);
+}
+.ver_bridge_rail{
+    background-image: url(./kiindulo_hun/pics/tiles/bridge_rail.png);
+}
+.mnt_left_down_rail{
+    background-image: url(./kiindulo_hun/pics/tiles/mountain_left_down_rail.png);
+}
+.mnt_left_up_rail{
+    background-image: url(./kiindulo_hun/pics/tiles/mountain_left_up_rail.png);
+}
+.mnt_right_down_rail{
+    background-image: url(./kiindulo_hun/pics/tiles/mountain_rail.png);
+}
+.mnt_right_up_rail{
+    background-image: url(./kiindulo_hun/pics/tiles/mountain_right_up_rail.png);
+}
+.curve_right_down{
+    background-image: url(./kiindulo_hun/pics/tiles/curve_right_down.png);
+}
+.curve_right_up{
+    background-image: url(./kiindulo_hun/pics/tiles/curve_right_up.png);
+}
+.curve_left_down{
+    background-image: url(./kiindulo_hun/pics/tiles/curve_left_down.png);
+}
+.curve_left_up{
+    background-image: url(./kiindulo_hun/pics/tiles/curve_left_up.png);
+}
+.straight_vertical{
+    background-image: url(./kiindulo_hun/pics/tiles/straight_rail.png);
+}
+.straight_horizontal{
+    background-image: url(./kiindulo_hun/pics/tiles/straight_horizontal_rail.png);
+}
+
+.empty, .oasis, .hor_bridge, .ver_bridge, .mnt_left_down, .mnt_left_up, .mnt_right_down, .mnt_right_up, .hor_bridge_rail, .ver_bridge_rail, .mnt_left_down_rail, .mnt_left_up_rail, .mnt_right_down_rail, .mnt_right_up_rail, .curve_right_down, .curve_right_up, .curve_left_down, .curve_left_up, .straight_vertical, .straight_horizontal{
+    background-size: 6rem 6rem;
+    height: 6rem;
+    width: 6rem;
+}
