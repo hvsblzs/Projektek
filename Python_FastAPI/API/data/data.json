@@ -1,0 +1,129 @@
+{
+    "Users": [
+        {
+            "id": 1,
+            "name": "Banános Joe",
+            "email": "bjoe@redneckcity.com"
+        },
+        {
+            "id": 2,
+            "name": "Almás Anna",
+            "email": "anna@fruitworld.com"
+        },
+        {
+            "id": 3,
+            "name": "Körtés Károly",
+            "email": "karoly@pearparadise.com"
+        },
+        {
+            "id": 4,
+            "name": "negyeske negyeske",
+            "email": "negy@gmail.com"
+        },
+        {
+            "id": 5,
+            "name": "Ötös Olivér",
+            "email": "ötöske@gmail.com"
+        },
+        {
+            "id": 6,
+            "name": "Valami Valami",
+            "email": "valami@valami.com"
+        },
+        {
+            "id": 7,
+            "name": "blabla",
+            "email": "bla@example.com"
+        }
+    ],
+    "Baskets": [
+        {
+            "id": 101,
+            "user_id": 1,
+            "items": [
+                {
+                    "item_id": 202,
+                    "name": "Alma",
+                    "brand": "Jonatán",
+                    "price": 13.48,
+                    "quantity": 2
+                },
+                {
+                    "item_id": 203,
+                    "name": "asd",
+                    "brand": "asd",
+                    "price": 4.0,
+                    "quantity": 4
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "user_id": 2,
+            "items": [
+                {
+                    "item_id": 203,
+                    "name": "Banán",
+                    "brand": "Chiquita",
+                    "price": 5.99,
+                    "quantity": 6
+                },
+                {
+                    "item_id": 204,
+                    "name": "Narancs",
+                    "brand": "Valencia",
+                    "price": 8.49,
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "user_id": 3,
+            "items": [
+                {
+                    "item_id": 205,
+                    "name": "Szilva",
+                    "brand": "Stanley",
+                    "price": 7.99,
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "id": 104,
+            "user_id": 4,
+            "items": []
+        },
+        {
+            "id": 105,
+            "user_id": 5,
+            "items": [
+                {
+                    "item_id": 201,
+                    "name": "Sonka",
+                    "brand": "Valamilyen",
+                    "price": 15.45,
+                    "quantity": 2
+                },
+                {
+                    "item_id": 202,
+                    "name": "Szalámi",
+                    "brand": "Valamilyen",
+                    "price": 15.45,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "id": 106,
+            "user_id": 6,
+            "items": []
+        },
+        {
+            "id": 107,
+            "user_id": 7,
+            "items": []
+        }
+    ]
+}
